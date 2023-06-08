@@ -1,4 +1,6 @@
 @media ( max-width:426px ) {
+    /**============ START COMMON CSS PART ============**/
+
     .title{
         margin-bottom: 20px;
     }
@@ -8,6 +10,13 @@
     .btn{
         padding: 10px 30px;
     }
+
+					/**============ END COMMON CSS PART ============**/
+
+
+
+					/**============ START NAV PART ============**/
+
     .header{
         width: 100%;
     }
@@ -51,6 +60,11 @@
         margin: 0 0px;
     }
 
+                    /**============ END NAV PART ============**/
+
+
+
+					/**============ START MESSAGE PART ============**/
 
     .message_section h1{
         font-size: 26px;
@@ -72,8 +86,12 @@
         object-fit: cover;
         margin-top: 20px;
     }
+					/**============ END MESSAGE PART ============**/
 
 
+
+
+					/**============ START LATEST NEWS PART ============**/
 
     .news_section {
         padding: 20px 0;
@@ -91,8 +109,12 @@
         margin-top: 15px;
         width: 60%;
     }
+					/**============ END LATEST NEWS PART ============**/
 
 
+
+
+					/**============ START UPDATE NEWS PART ============**/
 
     .updatenews_section {
         padding: 10px;
@@ -110,7 +132,12 @@
         margin-top: 15px;
         width: 60%;
     }
+					/**============ END UPDATE NEWS PART ============**/
 
+
+
+
+					/**============ START BAZAR PART ============**/
 
     .bazar_section{
         padding: 10px;
@@ -125,8 +152,12 @@
         width: 30%;
         margin: 2px;
     }
+					/**============ END BAZAR PART ============**/
 
 
+
+
+					/**============ START PORTFOLIO PART ============**/
 
     .protfolio_section{
         padding: 20px;
@@ -141,16 +172,27 @@
         width: 30%;
         margin: 2px;
     }
+					/**============ END PORTFOLIO PART ============**/
 
 
 
-    .footer_section{
+					/**============ START FOOTER PART ============**/
+
+    .footer_section .footer_logo{
         text-align: center;
+        margin-bottom: 20px;
     }
+    .footer_section .footer_logo img{
+        width: 40%;
+    }
+					/**============ END FOOTER PART ============**/
+
 }
 
 
 @media ( min-width:427px ) and ( max-width :769px ) {
+
+					/**============ START NAV PART ============**/
 
     .header .header_logo .header_logo_parts{
         display: flex;
@@ -188,7 +230,11 @@
         padding: 0 5px;
         margin: 0 0px;
     }
+                    /**============ END NAV PART ============**/
 
+
+
+                    /**============ START MESSAGE PART ============**/
 
     .message_section h1{
         font-size: 26px;
@@ -206,8 +252,12 @@
     .message_section .message_parts img{
         width: 90%;
     }
+                        /**============ END MESSAGE PART ============**/
 
 
+
+
+                        /**============ START LATEST NEWS PART ============**/
 
     .news_section {
         padding: 20px 0;
@@ -225,8 +275,12 @@
         margin-top: 15px;
         width: 60%;
     }
+                    /**============ END LATEST NEWS PART ============**/
 
 
+
+
+                    /**============ START UPDATE NEWS PART ============**/
 
     .updatenews_section {
         padding: 10px 0;
@@ -244,7 +298,12 @@
         margin-top: 15px;
         width: 60%;
     }
+                    /**============ END UPDATE NEWS PART ============**/
 
+
+
+
+                    /**============ START BAZAR PART ============**/
 
     .bazar_section{
         padding: 10px;
@@ -260,7 +319,12 @@
         margin-bottom: 2px;
     }
 
+                        /**============ END BAZAR PART ============**/
 
+
+
+
+                        /**============ START PORTFOLIO PART ============**/
 
     .protfolio_section{
         padding: 20px;
@@ -275,10 +339,30 @@
         width: 29%;
         margin-bottom: 2px;
     }
+
+                        /**============ END PORTFOLIO PART ============**/
+
+
+    					/**============ START FOOTER PART ============**/
+
+    .footer_section .footer_logo{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .footer_section .footer_logo img{
+        width: 100%;
+    }
+    .footer_section p{
+        margin-bottom: 0;
+    }
 }
 
 
 @media ( min-width:770px ) and ( max-width :1025px ) {
+    
+                    /**============ START BAZAR PART ============**/
+
     .bazar_section{
         padding: 10px;
     }
@@ -293,7 +377,12 @@
         margin-bottom: 2px;
     }
 
+    /**============ END BAZAR PART ============**/
 
+
+
+
+    /**============ START PORTFOLIO PART ============**/
 
     .protfolio_section{
         padding: 20px;
