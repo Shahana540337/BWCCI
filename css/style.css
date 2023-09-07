@@ -85,7 +85,7 @@ a{
 .header .header_nav .navbar ul li{
     display: inline-block;
     font-size: 14px;
-    padding: 0 10px !important;
+    padding: 0 10px ;
     margin: 0 10px;
     transition: .7s;
 }
