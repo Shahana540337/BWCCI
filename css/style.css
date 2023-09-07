@@ -40,6 +40,10 @@ a{
     background: #007bff;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 					/**============ END COMMON CSS PART ============**/
 
 
